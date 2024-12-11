@@ -22,7 +22,7 @@ empty_geojson = {
     "features": []
 }
 
-my_conn = create_engine("mysql+pymysql://root:JHaA6_X~d_@62.171.178.235/ne_database")
+my_conn = create_engine("mysql+pymysql://root:JXXX@62.171.178.235/ne_database")
 global cell_layer
 cell_layer = pd.read_sql('df_active', con=my_conn)
 
